@@ -1,0 +1,21 @@
+$bg-color:lightblue;
+$main-color:skyblue;
+
+$opacity1:rgba(137, 207, 235,.5);
+$opacity2:rgba(137, 207, 235,.2);
+
+$sky1:rgba(53, 122, 150, 0.6);
+$sky2:rgb(93, 183, 219);
+$sky3:rgb(124, 190, 216);
+$sky4:rgb(46, 117, 145);
+
+@mixin set-box($width:100%,$height:100%,$border-radius:0){
+  width:$width;
+  height:$height;
+  border-radius:$border-radius;
+}
+
+%double{
+  display:flex;
+  justify-content:space-between;
+}
